@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Foo" errors="0" tests="1" failures="1" time="0.038" timestamp="2014-07-12T13:40:28">
+  <testcase classname="Foo" name="should greet" time="0.036"><failure type="expect" message="ReferenceError: Foo is not defined">ReferenceError: Foo is not defined
+  at [object Object].&amp;lt;anonymous&amp;gt; (/home/manuel/temp/jasmine-unit-rendered/tests/foo-jasmine-unit.coffee:3:12)
+  at [object Object].jasmine.Block.execute (/home/manuel/.meteorite/packages/jasmine-unit/xolvio/jasmine-unit/7046cb7a9c745dc6e3c915962ed8876a48229739/.npm/package/node_modules/jasmine-node-reporter-fix/lib/jasmine-node/jasmine-1.3.1.js:1145:17)
+  at [object Object].jasmine.Queue.next_ (/home/manuel/.meteorite/packages/jasmine-unit/xolvio/jasmine-unit/7046cb7a9c745dc6e3c915962ed8876a48229739/.npm/package/node_modules/jasmine-node-reporter-fix/lib/jasmine-node/jasmine-1.3.1.js:2177:31)
+  at [object Object].jasmine.Queue.start (/home/manuel/.meteorite/packages/jasmine-unit/xolvio/jasmine-unit/7046cb7a9c745dc6e3c915962ed8876a48229739/.npm/package/node_modules/jasmine-node-reporter-fix/lib/jasmine-node/jasmine-1.3.1.js:2130:8)
+  at [object Object].jasmine.Spec.execute (/home/manuel/.meteorite/packages/jasmine-unit/xolvio/jasmine-unit/7046cb7a9c745dc6e3c915962ed8876a48229739/.npm/package/node_modules/jasmine-node-reporter-fix/lib/jasmine-node/jasmine-1.3.1.js:2458:14)
+  at [object Object].jasmine.Queue.next_ (/home/manuel/.meteorite/packages/jasmine-unit/xolvio/jasmine-unit/7046cb7a9c745dc6e3c915962ed8876a48229739/.npm/package/node_modules/jasmine-node-reporter-fix/lib/jasmine-node/jasmine-1.3.1.js:2177:31)
+  at [object Object].jasmine.Queue.start (/home/manuel/.meteorite/packages/jasmine-unit/xolvio/jasmine-unit/7046cb7a9c745dc6e3c915962ed8876a48229739/.npm/package/node_modules/jasmine-node-reporter-fix/lib/jasmine-node/jasmine-1.3.1.js:2130:8)
+  at [object Object].jasmine.Suite.execute (/home/manuel/.meteorite/packages/jasmine-unit/xolvio/jasmine-unit/7046cb7a9c745dc6e3c915962ed8876a48229739/.npm/package/node_modules/jasmine-node-reporter-fix/lib/jasmine-node/jasmine-1.3.1.js:2604:14)
+  at [object Object].jasmine.Queue.next_ (/home/manuel/.meteorite/packages/jasmine-unit/xolvio/jasmine-unit/7046cb7a9c745dc6e3c915962ed8876a48229739/.npm/package/node_modules/jasmine-node-reporter-fix/lib/jasmine-node/jasmine-1.3.1.js:2177:31)
+  at [object Object].jasmine.Queue.start (/home/manuel/.meteorite/packages/jasmine-unit/xolvio/jasmine-unit/7046cb7a9c745dc6e3c915962ed8876a48229739/.npm/package/node_modules/jasmine-node-reporter-fix/lib/jasmine-node/jasmine-1.3.1.js:2130:8)
+  at [object Object].jasmine.Runner.execute (/home/manuel/.meteorite/packages/jasmine-unit/xolvio/jasmine-unit/7046cb7a9c745dc6e3c915962ed8876a48229739/.npm/package/node_modules/jasmine-node-reporter-fix/lib/jasmine-node/jasmine-1.3.1.js:2224:14)
+  at [object Object].jasmine.Env.execute (/home/manuel/.meteorite/packages/jasmine-unit/xolvio/jasmine-unit/7046cb7a9c745dc6e3c915962ed8876a48229739/.npm/package/node_modules/jasmine-node-reporter-fix/lib/jasmine-node/jasmine-1.3.1.js:864:23)
+  at Object.jasmine.executeSpecsInFolder (/home/manuel/.meteorite/packages/jasmine-unit/xolvio/jasmine-unit/7046cb7a9c745dc6e3c915962ed8876a48229739/.npm/package/node_modules/jasmine-node-reporter-fix/lib/jasmine-node/index.js:186:16)
+  at Object.&amp;lt;anonymous&amp;gt; (/home/manuel/.meteorite/packages/jasmine-unit/xolvio/jasmine-unit/7046cb7a9c745dc6e3c915962ed8876a48229739/.npm/package/node_modules/jasmine-node-reporter-fix/lib/jasmine-node/cli.js:248:9)
+  at Module._compile (module.js:456:26)
+  at Object.Module._extensions..js (module.js:474:10)
+  at Module.load (module.js:356:32)
+  at Function.Module._load (module.js:312:12)
+  at Function.Module.runMain (module.js:497:10)
+  at startup (node.js:119:16)
+  at node.js:906:3
+</failure></testcase>
+</testsuite>
+</testsuites>
